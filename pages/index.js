@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Header from './../components/global/Header';
 import JsBox from './../components/home/JsBox';
 import Logos from './../components/home/Logos';
+import Api from './../components/home/Api';
+import Markup from '../components/home/Markup';
 
 
 export default function Home() {
@@ -17,6 +19,8 @@ export default function Home() {
         <Header />
         <JsBox />
         <Logos />
+        <Api />
+        <Markup />
       </main>
     </>
   );

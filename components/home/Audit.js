@@ -2,7 +2,7 @@ const Audit = () => {
   return (
     <div className="flex w-full justify-center md:-mt-36 mt-34 relative z-40">
     <div className="glass max-auto w-[800px] text-center space-y-12 m-10">
-      <h1 className="text-[#efffe2] mt-24">top audit score</h1>
+      <h1 className="text-[#efffe2] mt-10 sm:mt-24">top audit score</h1>
       <div className="flex flex-wrap gap-12 mx-auto px-2">
       <div className="glow-circle mx-auto">
         <p>100%</p>

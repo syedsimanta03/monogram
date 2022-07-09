@@ -41,7 +41,7 @@ const Header = () => {
           <img
             src="/herographics.svg"
             alt="herographics"
-            className="max-w-md"
+            className="w-1/2"
           />
         </div>
       </div>

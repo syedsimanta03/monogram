@@ -1,14 +1,14 @@
 
 const Markup = () => {
   return (
-    <div className="bg-white h-[2000px] pt-96 -mt-[42rem] relative z-10">
-      <img className="-mt-[30rem]" src="/squigglydark.svg" alt="squigglydark" />
+    <div className="bg-white pt-96 -mt-[42rem] relative z-10">
+      <img className="-mt-[30rem] w-full" src="/squigglydark.svg" alt="squigglydark" />
       <div className="mt-[40rem] flex flex-wrap gap-16">
         <div className="flex flex-col gap-y-12 ml-20">
           <h1 className="font-extrabold text-4xl sm:text-6xl md:text-8xl text-jm-black whitespace-nowrap mt-20 sm:mt-0">
             markup
           </h1>
-          <p className="max-w-1/2 md:w-[500px] text-jm-black">
+          <p className="max-w-1/2 md:w-[500px] text-jm-black mr-8">
             When ready for deployment, a static-site generator such as Astro or
             Next.js is used to compile the website. The end result is a
             collection of pre-rendered HTML pages that can be delivered
@@ -26,7 +26,7 @@ const Markup = () => {
           alt="markgraphics"
         />
         <img
-          className="ml-auto h-[50rem]"
+          className="h-auto w-full"
           src="/blocks.svg"
           alt="blocks"
         />

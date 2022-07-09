@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import Header from './../components/global/Header';
+import Footer from './../components/global/Footer';
 import JsBox from './../components/home/JsBox';
 import Logos from './../components/home/Logos';
 import Api from './../components/home/Api';
 import Markup from '../components/home/Markup';
+import Audit from '../components/home/Audit';
 
 
 export default function Home() {
@@ -21,6 +23,8 @@ export default function Home() {
         <Logos />
         <Api />
         <Markup />
+        <Audit />
+        <Footer />
       </main>
     </>
   );

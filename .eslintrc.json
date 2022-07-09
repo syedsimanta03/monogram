@@ -2,7 +2,8 @@
   "rules": {
     "@next/next/no-img-element": 0,
     "react/no-unescaped-entities": 0,
-    "eslint@next/next/no-html-link-for-pages": 0
+    "eslint@next/next/no-html-link-for-pages": 0,
+   "eslintreact/jsx-no-target-blank": 0
   },
 
   "extends": "next/core-web-vitals"

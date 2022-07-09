@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from './../components/global/Header';
+import JsBox from './../components/home/JsBox';
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
 
       <main>
         <Header/>
+        <JsBox/>
       </main>
     </>
   );

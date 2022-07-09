@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect, useRef } from "react";
 import HALO from "vanta/dist/vanta.halo.min";
+import MouseDown from "./MouseDown";
 
 const Header = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -19,20 +19,25 @@ const Header = () => {
     }
   }, [vantaEffect]);
   return (
-    <header className="min-h-screen grid grid-cols-1 xl:grid-cols-2" ref={myRef}>
-      <h1 className="font-extrabold text-8xl text-jm-orange pl-32 pt-28">
-        jamstack{" "}
-        <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-indigo-500">
-          101
-        </span>
-      </h1>
-      <div className="flex justify-between w-full">
-        <p className="w-[650px] mr-auto pl-32 -mt-20">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu augue
-          massa, tincidunt proin nunc viverra tristique tempor, ipsum. At lectus
-          vel pretium tempor ut dui vivamus sit.{" "}
-        </p>
-        <div className="-mt-20">
+    <header className="min-h-screen w-full z-10 relative" ref={myRef}>
+      <div className="flex flex-wrap">
+        {/* Text */}
+        <div className="pl-12 pt-14 md:pl-32 md:pt-28">
+          <h1 className="font-extrabold text-4xl sm:text-6xl md:text-8xl text-jm-orange whitespace-nowrap">
+            jamstack{" "}
+            <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-indigo-500">
+              101
+            </span>
+          </h1>
+          <p className="max-w-1/2 md:w-[500px] mt-4 pr-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu augue
+            massa, tincidunt proin nunc viverra tristique tempor, ipsum. At
+            lectus vel pretium tempor ut dui vivamus sit.{" "}
+          </p>
+          <img src="/dotline.svg" alt="dotline" className="-rotate-[25deg] ml-40 hidden xl:block" />
+        </div>
+        {/* Img graphics */}
+        <div className="mt-24 ml-auto">
           <img
             src="/herographics.svg"
             alt="herographics"
@@ -40,6 +45,8 @@ const Header = () => {
           />
         </div>
       </div>
+
+      <MouseDown />
     </header>
   );
 };

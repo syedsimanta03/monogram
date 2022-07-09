@@ -2,7 +2,7 @@
 const JsBox = () => {
   return (
     <>
-      <div className="grid absolute z-20 pt-5 mx-auto jsbox -mt-56  md:-mt-10">
+      <div className="grid absolute pt-5 mx-auto jsbox -mt-56  md:-mt-10">
         <img
           src="/jsbox.svg"
           className="w-[1200px] mx-auto col-start-1 row-start-1 self-center"

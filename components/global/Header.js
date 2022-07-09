@@ -13,7 +13,7 @@ const Header = () => {
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          backgroundColor: 0x151515,
+          backgroundColor: 0x141414,
         })
       );
     }

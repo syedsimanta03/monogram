@@ -1,13 +1,12 @@
-
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
 
 :root {
-  --font-family: 'Inter', sans-serif;
-  --jm-orange: #E8958D;
+  --font-family: "Inter", sans-serif;
+  --jm-orange: #e8958d;
   --jm-black: #151515;
-  --jm-selection-bg: #E8958D;
+  --jm-selection-bg: #e8958d;
   --jm-selection-text: #d2d2d1;
-  --jm-background: #FFFFFF;
+  --jm-background: #ffffff;
   --jm-color: #757575;
 
   --font-size-xl: clamp(1.71rem, 1.2vw + 1.41rem, 2.37rem);
@@ -37,11 +36,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--font-family);
-  background: var(--jm-background);
   font-size: 1rem;
   font-weight: 400;
   color: var(--jm-color);
   overflow-x: none;
+  background: #201520;
 }
 
 body::-webkit-scrollbar {
@@ -98,8 +97,8 @@ p {
 
 /*jsbox section*/
 .jsbox {
-    left: 50%;
-    top: 166%;
-    transform: translate(-50%, -50%);
-    width: 100%;
+  left: 50%;
+  top: 166%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }

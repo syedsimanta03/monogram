@@ -2,6 +2,10 @@
   "name": "monogram",
   "version": "0.1.0",
   "private": true,
+  "peerDependenciesMeta": {
+"typescript": {
+  "optional": true
+},
   "scripts": {
     "dev": "next dev",
     "build": "next build",

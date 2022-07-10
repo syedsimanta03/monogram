@@ -2,7 +2,7 @@ import React from 'react'
 
 const MouseDown = () => {
   return (
-    <div className="flex justify-center mt-8 lg:mt-[-30px] mx-auto pb-40">
+    <div className="flex justify-center mt-8 lg:mt-[-270px] mx-auto pb-20 sm:pb-56">
       <svg
         width="75"
         height="auto"

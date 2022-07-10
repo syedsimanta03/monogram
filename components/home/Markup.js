@@ -9,7 +9,7 @@ const Markup = () => {
       />
       <div className="mt-[40rem] flex flex-wrap gap-16">
         <div className="flex flex-col gap-y-12 ml-20">
-          <h1 className="font-extrabold text-4xl sm:text-6xl md:text-8xl text-jm-black whitespace-nowrap mt-20 sm:mt-0">
+          <h1 className="font-extrabold text-4xl sm:text-6xl md:text-8xl text-jm-black whitespace-nowrap mt-20 sm:mt-10 lg:mt-0">
             markup
           </h1>
           <p className="max-w-1/2 md:w-[500px] text-jm-black mr-8">

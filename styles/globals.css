@@ -126,3 +126,38 @@ p {
   50% { box-shadow:0 0 16px #54ff10, inset 0 0 14px #54ff10; }
   100% { box-shadow:0 0 8px #54ff10, inset 0 0 8px #54ff10; }
 }
+
+/*slide up text animation*/
+.slide-up {
+  -webkit-animation: slide-up 0.9s cubic-bezier(0.65, 0, 0.35, 1) both;
+          animation: slide-up 0.9s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+
+@-webkit-keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#jamstack {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+          overflow: hidden;
+}
+#jam-text {
+-webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+          overflow: hidden;
+}

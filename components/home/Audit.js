@@ -15,7 +15,7 @@ const Audit = () => {
           <div className="glow-circle mx-auto">
             <p>100%</p>
           </div>
-          <p className="text-[#C7C7C7] px-4 sm:px-20">
+          <p className="px-4 sm:px-20 text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-gray-400">
             Search engines, business stakeholders, and end-users gauge a
             website’s value using metric tools like Google Lighthouse, which
             measures site performance, SEO, and accessibility. <br />

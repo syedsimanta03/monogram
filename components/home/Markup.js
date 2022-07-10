@@ -1,8 +1,12 @@
 
 const Markup = () => {
   return (
-    <div className="bg-white pt-96 -mt-[42rem] relative z-10">
-      <img className="-mt-[30rem] w-full" src="/squigglydark.svg" alt="squigglydark" />
+    <div className="bg-white pt-50 -mt-[36rem] sm:-mt-[42rem] relative z-10">
+      <img
+        className="-mt-[30rem] w-full hidden lg:block"
+        src="/squigglydark.svg"
+        alt="squigglydark"
+      />
       <div className="mt-[40rem] flex flex-wrap gap-16">
         <div className="flex flex-col gap-y-12 ml-20">
           <h1 className="font-extrabold text-4xl sm:text-6xl md:text-8xl text-jm-black whitespace-nowrap mt-20 sm:mt-0">
@@ -14,23 +18,22 @@ const Markup = () => {
             collection of pre-rendered HTML pages that can be delivered
             lightning-fast over a CDN like Vercel’s Edge Network.
           </p>
+          {/* 3 big random bricks */}
           <img
             className="ml-auto hidden sm:block"
             src="/bricks.svg"
             alt="bricks"
           />
         </div>
+        {/* multi color 2 blocks bricks */}
         <img
-          className="ml-auto h-[50rem]"
+          className="ml-auto max-h-[50rem]"
           src="/markgraphics.svg"
           alt="markgraphics"
         />
-        <img
-          className="h-auto w-full"
-          src="/blocks.svg"
-          alt="blocks"
-        />
       </div>
+      {/* wull width bricks */}
+        <img className="h-auto w-full" src="/blocks.svg" alt="blocks" />
     </div>
   );
 }

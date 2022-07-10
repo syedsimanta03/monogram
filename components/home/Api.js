@@ -16,6 +16,7 @@ const Api = () => {
       <img
         className="z-40 relative mx-auto"
         src="/3dcircle.svg"
+        loading="lazy"
         alt="3dcircle"
       />
      

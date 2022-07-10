@@ -3,6 +3,7 @@ const Markup = () => {
   return (
     <div className="bg-white pt-50 -mt-[36rem] sm:-mt-[42rem] relative z-10">
       <img
+      loading="lazy"
         className="-mt-[30rem] w-full hidden lg:block"
         src="/squigglydark.svg"
         alt="squigglydark"
@@ -20,6 +21,7 @@ const Markup = () => {
           </p>
           {/* 3 big random bricks */}
           <img
+          loading="lazy"
             className="ml-auto hidden sm:block"
             src="/bricks.svg"
             alt="bricks"
@@ -27,13 +29,15 @@ const Markup = () => {
         </div>
         {/* multi color 2 blocks bricks */}
         <img
+        loading="lazy"
           className="ml-auto max-h-[50rem]"
           src="/markgraphics.svg"
           alt="markgraphics"
         />
       </div>
       {/* wull width bricks */}
-        <img className="h-auto w-full" src="/blocks.svg" alt="blocks" />
+        <img
+        loading="lazy" className="h-auto w-full" src="/blocks.svg" alt="blocks" />
     </div>
   );
 }

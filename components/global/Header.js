@@ -39,9 +39,9 @@ const Header = () => {
         {/* Img graphics */}
         <div className="mt-24 ml-auto">
           <img
-            src="/herographics.svg"
+            src="/herographics.png"
             alt="herographics"
-            className="max-h-[40rem] pb-32"
+            className="max-h-[40rem] pb-32 slide-up"
           />
         </div>
       </div>
